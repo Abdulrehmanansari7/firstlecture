@@ -39,6 +39,8 @@ ul{
 .change{
     text-transform: uppercase;
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
     
 }
 
@@ -49,27 +51,35 @@ ul{
     color: cornflowerblue;
 }
 
-.first{
+div.bg-color{
+    background-color: gray;
+}
+div.first{
     opacity: 0.1;
-    background-color: grey;
 }
-.second{
+div.second{
     opacity: 0.3;
-    background-color: grey;
 }
-.third{
+div.third{
     opacity: 0.6;
-    background-color: grey;
 }
+
 .normal{
     background-color: grey; 
 }
 
 .bg-1{
-    background-image:url(img/images.jpg);
+    background-image:url(https://cdn.wallpapersafari.com/43/42/IwWBH3.jpg);
     background-repeat: no-repeat;
-    width: 100vh;
+    /* width: 100vh; */
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* color: brown; */
 }
 
 .border-property{
